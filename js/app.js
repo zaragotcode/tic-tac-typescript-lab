@@ -12,3 +12,7 @@ const winningCombo = [
     [0, 4, 8],
     [2, 4, 6],
 ];
+let board;
+let turn;
+let winner;
+let tie;

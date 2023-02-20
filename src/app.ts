@@ -14,3 +14,7 @@ const winningCombo: number[][] = [
 ];
 
 
+let board: (number| null)[];
+let turn: number;
+let winner: boolean;
+let tie: boolean;
