@@ -18,3 +18,16 @@ let board: (number| null)[];
 let turn: number;
 let winner: boolean;
 let tie: boolean;
+
+
+
+const squareEls = document.querySelectorAll(".sqr") as NodeListOf<HTMLDivElement>;
+
+const messageEl = document.getElementById("message")
+
+const resetBtnEl = document.getElementById("reset")
+
+
+
+
+
