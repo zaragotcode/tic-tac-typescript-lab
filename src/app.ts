@@ -96,6 +96,9 @@ function handleClick(evt: MouseEvent): void {
 
 function placePiece(idx: number): void {
   board[idx] = turn
+  if (winner == true ) {
+    return
+  }
 }
 
 function checkForTie(): void {
