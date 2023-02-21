@@ -25,6 +25,7 @@ squareEls.forEach((square) => {
 if (resetBtnEl) {
     resetBtnEl?.addEventListener("click", init);
 }
+init();
 function init() {
     board = [null, null, null, null, null, null, null, null, null];
     turn = 1;
@@ -35,6 +36,7 @@ function init() {
 function render() {
     updateBoard();
     updateMessage();
+    rstButton();
 }
 function updateBoard() {
     board.forEach((square, idx) => {

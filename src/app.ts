@@ -40,7 +40,7 @@ if (resetBtnEl) {
 }
 
 
-
+init()
 
 function init(): void {
   board = [null, null, null, null, null, null, null, null, null]
@@ -54,6 +54,7 @@ function init(): void {
 function render(): void {
   updateBoard()
   updateMessage()
+  rstButton()
 }
 
 
